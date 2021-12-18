@@ -1,0 +1,26 @@
+.header {
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+}
+h1 {
+  height: 100px;
+  width: 100%;
+  line-height: 90px;
+  text-align: center;
+  margin: 10px auto 150px;
+  transition: all 200ms ease-in-out;
+}
+.btn {
+  width: 100%;
+}
+
+.numberOfRows {
+  width: 100%;
+}
+
+.after {
+  text-align: center;
+}
+
+.row{
+  margin-bottom: 1rem;
+}

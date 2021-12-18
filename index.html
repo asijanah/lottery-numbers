@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottery</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="">Random Lottery Numbers</h1>
+    </header>
+    <div class="container row">
+      <div class="inputs col-6">
+        <button type="button" class="btn btn-info">RUN</button>
+        <button type="button" class="btn btn-primary btnclear">Clear</button>
+        <!-- <div class="check"> -->
+        <!-- <input type="checkbox" id="check" onchange="learnCheckBox()" /> -->
+        <!-- </div> -->
+        <button type="button" class="addWinNumbersBtn btn btn-info">
+          select
+        </button>
+        <button type="button" class="reloadBtn btn
+btn-info">
+  Reload
+</button>
+        
+
+        <!-- <input class="check form-check-input mt-0" type="checkbox" /> -->
+        <input type="text" class="userinput form-control" value="" />
+
+        <div class="numberOfRows col-6">
+          <label class="label">Please enter a number of rows</label>
+          <input type="number" class="form-control input_rows" value="" />
+        </div>
+      </div>
+      <div class="output col-6">
+        <div class="after">
+          <!-- <div class="row"> -->
+          <!-- <div class="col"></div> -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer"></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="lottery_function.js"></script>
+  </body>
+</html>
